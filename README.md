@@ -13,11 +13,11 @@ $ thou will describe ~/some_folder
 
 Install just for this shell session by including the file:
 
-  $ source .godfiles
+    $ source .godfiles
 
 Or install permanently:
 
-  $ cp .godfiles ~/ && echo 'source .godfiles' >> ~/.profile
+    $ cp .godfiles ~/ && echo 'source .godfiles' >> ~/.profile
   
 ## Full reference
 
