@@ -1,3 +1,4 @@
+
 # GODFILES
 # by Jamie Rumbelow (http://jamieonsoftware.com).
 # 
@@ -24,11 +25,13 @@ alias me=''
 alias must=''
 alias will=''
 alias shall=''
+alias shalt=''
 
 # Some good verbs for various actions.
 alias smite='rm -fr' # thou must smite /
 function flee { if [[ $1 == 'to' ]]; then shift && cd $*; fi } # thou shall flee to ~/Sites
 alias describe='ls -al'
+alias create='touch'
 
 # *cough*
 alias satan='/Users/juliancheal'
