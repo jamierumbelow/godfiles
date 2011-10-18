@@ -9,20 +9,26 @@
 # 
 #   $ cp .godfiles ~/ && echo 'source .godfiles' >> ~/.profile
 #   $ source ~/.godfiles
-#   $ thou must smite
+#   $ thou must smite ~/file_to_delete
 
 # Pronouns. These don't do anything, they're just there to
 # add to the overall 'mise-en-scene'
 alias thou=''
 alias thee=''
+alias to=''
 alias moses=''
 alias you=''
+alias me=''
 
 # Some forceful verbs. Because you're god, so someone better fucking listen to you.
-alias must='sudo '
-alias shall='sudo '
-alias will='sudo '
+alias must=''
+alias will=''
+alias shall=''
 
 # Some good verbs for various actions.
 alias smite='rm -fr' # thou must smite /
-function flee { if [[ $1 == 'to' ]]; then shift && cd $*; fi } # thou must flee to ~/Sites
+function flee { if [[ $1 == 'to' ]]; then shift && cd $*; fi } # thou shall flee to ~/Sites
+alias describe='ls -al'
+
+# *cough*
+alias satan='/Users/juliancheal'
