@@ -29,7 +29,11 @@ I can't figure out a way of sharing the aliases and functions into the subshell 
 
 ## Contributions
 
-Please contribute as much as you can! It'd be great to have a really comprehensive group of functions. Pull request away, friends.
+Please contribute as much as you can! It'd be great to have a really comprehensive group of functions. Pull request away, friends. Bonus points for a patch/topic branch, because it makes life that much easier.
+
+Thanks to everyone who's contributed so far:
+
+* [Nick Jackson](https://github.com/jacksonj04)
 
 ## Disclaimer
 
