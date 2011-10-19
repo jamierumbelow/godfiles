@@ -23,10 +23,6 @@ Or install permanently:
 
 This is coming. Look at the script for now.
 
-## A note on `sudo`
-
-I can't figure out a way of sharing the aliases and functions into the subshell of sudo. So I've removed all the `sudo` based aliases for now. If someone can show me how to do this it'd be much appreciated.
-
 ## Contributions
 
 Please contribute as much as you can! It'd be great to have a really comprehensive group of functions. Pull request away, friends. Bonus points for a patch/topic branch, because it makes life that much easier.

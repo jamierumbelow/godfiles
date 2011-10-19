@@ -1,4 +1,3 @@
-
 # GODFILES
 # by Jamie Rumbelow (http://jamieonsoftware.com).
 # 
@@ -22,10 +21,13 @@ alias you=''
 alias me=''
 
 # Some forceful verbs. Because you're god, so someone better fucking listen to you.
-alias must=''
-alias will=''
 alias shall=''
 alias shalt=''
+
+# Some REALLY forceful verbs. Sudo it up
+alias godsudo='sudo -i source ~/.godfiles && '
+alias must=godsudo
+alias will=godsudo
 
 # Some good verbs for various actions.
 alias smite='rm -fr' # thou must smite /
