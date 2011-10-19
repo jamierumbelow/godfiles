@@ -21,7 +21,23 @@ Or install permanently:
   
 ## Full reference
 
-This is coming. Look at the script for now.
+Godfiles contains a bunch of different commands to do a large number of things. In order to make it read like biblical English, there are a variety of joining words that do nothing. These are:
+
+    $ thou thee to you moses you me shall shalt
+    
+Combining these allows us to create sentences. More usefully, we can use some **stronger** verbs to enforce the command, through the use of `sudo`:
+
+    $ thou must smite file
+    $ thou will smite file
+    
+Finally, there are a bunch of commands aliased / patched to do certain tasks.
+
+* `smite` = `rm -fr`
+* `flee to` = `cd`
+* `describe` = `ls -al`
+* `create` = `touch`
+
+Enjoy!
 
 ## Contributions
 
